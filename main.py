@@ -79,7 +79,7 @@ def main(model_name, prompt_name, data_year, example=None):
     elif model_name == "gpt3":
         model = GPTNeoModel()
     elif model_name == "gemini":
-        model = GeminiModel(api_key="*****")
+        model = GeminiModel(api_key="*****") # API key for Gemini model
     else:
         raise ValueError("Unsupported model. Choose from: mistral, gpt3, llama, deepseek, qwen")
 
