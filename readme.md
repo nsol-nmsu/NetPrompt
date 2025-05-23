@@ -22,7 +22,9 @@ To reproduce our results:
 
 ## Usage:
 General format for Zero-Shot & Few-Shot prompting:
-`python main.py -m <model_name> -d <data_year> -p <prompt_type> [-e <fewshot_example_number>]`
+```
+python main.py -m <model_name> -d <data_year> -p <prompt_type> [-e <fewshot_example_number>]
+```
 
 - `-m`/`--model_name`: `gemini`, `llama` or `qwen`
 - `-d`/`--data_year`: `2017` or `2019`
