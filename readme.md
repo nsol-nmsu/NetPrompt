@@ -2,7 +2,7 @@
 
 <h2> Guide to use LLMs as NIDS </h2>
 
-Welcome to the NetPrompt repository for Evaluating LLMs as Network Intrusion Detection System. This repository contains the [Processed Datasets](./data/processed), [Prompts](./prompts): Zer-Shot (ZS), Few-Shot-*p* (FS) where *p* ∈ {1, 2, 3}, and Chain-of-Thought (CoT).
+Welcome to the NetPrompt repository for Evaluating Large Language Models (LLMs) as Network Intrusion Detection System (NIDS). This repository contains the [Processed Datasets](./data/processed) and [Prompts](./prompts): Zer-Shot (ZS), Few-Shot-*p* (FS) where *p* ∈ {1, 2, 3}, and Chain-of-Thought (CoT).
 
 ## Repository Structure:
 
