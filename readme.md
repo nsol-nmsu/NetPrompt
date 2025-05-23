@@ -43,6 +43,8 @@ usage: main_cot.py [-h] [--model_name {qwen,llama}] [--data_year {2017,2019}] [-
 - `--num_examples`: NUM_EXAMPLES - Number of examples to include in prompt
 - `feature_type`: FEATURE_TYPE
 
+To train MLP model:
+`python3 train_model.py -m {2017 or 2019}`
 
 ## Extend Netprompt
 
