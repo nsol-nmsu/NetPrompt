@@ -1,0 +1,17 @@
+pandas
+sentencepiece
+transformers
+scikit-learn
+accelerate>=0.26.0
+torch
+vllm 
+bitsandbytes 
+transformers_stream_generator
+huggingface_hub
+
+# Related to plotly
+psutil 
+GPUtil 
+plotly
+dspy-ai
+google-generativeai
