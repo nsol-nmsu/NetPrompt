@@ -8,7 +8,7 @@ Welcome to the NetPrompt repository for Evaluating Large Language Models (LLMs) 
 
 - [data](./data): Processed version of CICIDS2017 and CICDDoS2019 datasets.
 - [llm](./llm): Wrapper classes for the LLM models used in our experiments.
-- [prompt](./prompt): All prompt templates used for evaluation, including ZS, FS, and CoT formats.
+- [prompt](./prompts): All prompt templates used for evaluation, including ZS, FS, and CoT formats.
 - [scripts](./scripts): Shell scripts to reproduce all experiments.
 - [models](./models): Pretrained baseline MLP models used for comparative evaluation.
 
