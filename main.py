@@ -1,3 +1,24 @@
+"""
+main.py
+
+Entry point for evaluating LLMs on network intrusion detection tasks using Zero-Shot (ZS)
+and Few-Shot (FS) prompting strategies.
+
+Supports models like Gemini, LLaMA, and Qwen, and datasets such as CICIDS2017 and CICDDoS2019.
+
+Usage:
+    python main.py -m gemini -d 2019 -p zeroshot
+    python main.py -m gemini -d 2017 -p fewshot -e 2
+
+Arguments:
+    -m / --model_name        : LLM to use {gemini, llama, qwen}
+    -d / --data_year         : Dataset year {2017, 2019}
+    -p / --prompt_type       : Prompting strategy {zeroshot, fewshot}
+    -e / --num_examples      : (Optional) Number of few-shot examples to include [required if prompt_name=fewshot]
+
+See the paper for full details on preprocessing, prompting, and evaluation.
+"""
+
 import os
 import gc
 import torch
