@@ -12,6 +12,13 @@ Welcome to the NetPrompt repository for Evaluating Large Language Models (LLMs) 
 - [scripts](./scripts): Shell scripts to reproduce all experiments.
 - [models](./models): Pretrained baseline MLP models used for comparative evaluation.
 
+## Extended Results from paper:
+Below are additional results with **Precision** and **Recall**, which were not included in the main body of the paper:
+
+![Table 4 Results](./pics/table4.png)
+
+![Table 5 Results](./pics/table5.png)
+
 ## Getting Started:
 To reproduce our results:
 
