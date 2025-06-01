@@ -15,9 +15,9 @@ Welcome to the NetPrompt repository for Evaluating Large Language Models (LLMs) 
 ## Extended Results from paper:
 Below are additional results with **Precision** and **Recall**, which were not included in the main body of the paper:
 
-![Table 4 Results](./pics/table4.png)
+![Table 4 Results](./pic/table4.png)
 
-![Table 5 Results](./pics/table5.png)
+![Table 5 Results](./pic/table5.png)
 
 ## Getting Started:
 To reproduce our results:
