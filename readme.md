@@ -76,4 +76,4 @@ To add new prompts:
 
 ## Citation
 
-This work is currently under review. A BibTeX citation entry will be provided upon acceptance.
+This work has been accepted and presented at MILCOM 2025. The BibTeX citation will be added here once the proceedings are published.
