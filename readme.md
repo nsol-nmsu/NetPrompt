@@ -1,4 +1,13 @@
-<h1 align="center"> NetPrompt </h1>
+<h1 align="center"> NetPrompt: Evaluation of LLMs as Network Intrusion Detection System </h1>
+
+<p align="center">
+Pratyay Kumar, Abu Saleh Md Tayeen, Qixu Gong, Jiefei Liu, Satyajayant Misra,<br>
+Huiping Cao, Jayashree Harikumar
+</p>
+
+<p align="center">
+<strong>MILCOM 2025</strong> (Accepted and Presented)
+</p>
 
 <h2> Guide to use LLMs as NIDS </h2>
 
