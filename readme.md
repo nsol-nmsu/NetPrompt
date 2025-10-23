@@ -41,9 +41,12 @@ Welcome to the NetPrompt repository for Evaluating Large Language Models (LLMs) 
    - **HuggingFace Token** (for LLaMA): Edit `llm/llama.py` at line 9, replace `"******"` with your token
    - **Gemini API Key**: Edit `main.py` at line 127, replace `"*****"` with your API key
 
+4. Download data:
+   - Download the data folder from [data](./data) and place it at `./data` in the repository root.
+
 ### Quick Start
 
-To reproduce results from Table V:
+To reproduce the results, run the following bash scripts:
 ```bash
 cd scripts
 ./llama.sh
