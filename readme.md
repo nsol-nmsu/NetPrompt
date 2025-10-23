@@ -20,20 +20,39 @@ Welcome to the NetPrompt repository for Evaluating Large Language Models (LLMs) 
 - [prompt](./prompts): All prompt templates used for evaluation, including ZS, FS, and CoT formats.
 - [scripts](./scripts): Shell scripts to reproduce all experiments.
 - [models](./models): Pretrained baseline MLP models used for comparative evaluation.
-
-## Extended Results from paper:
-Below are additional results with **Precision** and **Recall**, which were not included in the main body of the paper:
-
-![Table 4 Results](./pic/table4.png)
-
-![Table 5 Results](./pic/table5.png)
+- [tables](./tables): Contains additional results with **Precision** and **Recall** (not included in the main body of the paper).
 
 ## Getting Started:
-To reproduce our results:
 
-- Install dependencies listed in `requirements.txt`
-- Add your HuggingFace and Gemini API keys.
-- Run `main.py` for Zero-Shot (ZS) and Few-Shot (FS) experiments.
+### Installation
+
+1. Create and activate conda environment:
+   ```bash
+   conda create -n netprompt python=3.9.21
+   conda activate netprompt
+   ```
+
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Configure API keys:
+   - **HuggingFace Token** (for LLaMA): Edit `llm/llama.py` at line 9, replace `"******"` with your token
+   - **Gemini API Key**: Edit `main.py` at line 127, replace `"*****"` with your API key
+
+### Quick Start
+
+To reproduce results from Table V:
+```bash
+cd scripts
+./llama.sh
+./qwen.sh
+./gemini.sh
+```
+
+For individual experiments:
+- Run `main.py` for Zero-Shot (ZS) and Few-Shot (FS) experiments
 - Run `main_cot.py` for Chain-of-Thought (CoT) experiments
 
 ## Usage:
